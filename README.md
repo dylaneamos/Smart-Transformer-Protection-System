@@ -6,3 +6,5 @@ Here's a high-level overview of the steps that can be followed to develop a smar
 3. Trigger actions: Based on the data analysis, the system should be able to take action to isolate the fault, prevent damage to the transformer, and provide diagnostic information.
 4. Communicate with remote control center: To meet objective 4, the system should be able to communicate with a remote control center, allowing utilities and power companies to monitor and control the transformer from a distance. This can be done by sending data to the control center and receiving commands from it.
 5. Store data and logs: The system should store data and logs to provide a history of the conditions of the transformer and any actions taken by the system.
+
+This code is a simple monitoring system that continuously collects data from 4 sensors (current, voltage, temperature, and pressure) and analyzes the data to detect any issues. If an issue is detected, the system triggers an action based on the issue type. The actions are specified in the "trigger_action" function. The system runs in a loop and waits for 5 seconds before collecting data again.
